@@ -1,0 +1,60 @@
+body{
+    font-family: 'Inter';
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    vertical-align: middle;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    height: 4.7%;
+    width: 4.7%;
+}
+
+#line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12%;
+    width: 12%;
+}
+
+#portfolio{
+    display: flex;
+}
+
+#livsi{
+    text-align: center;
+}
+
+#rdn{
+    text-align: center;
+}
+
+#kertse{
+    text-align: center;
+}
+
+#portfolio1{
+    text-align: center;
+}
+
+#imginportfolio{
+    height: 50%;
+    width: 50%;
+}
+
+.footer{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background-color: #e00000;
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
